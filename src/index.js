@@ -146,7 +146,7 @@ function FormSplitBill({ currentFriend, onUpdate, showFormSplitBill }) {
   return (
     <>
       <form className="form-split-bill" onSubmit={handlerSubmit}>
-        <h2>SPLIT A BILL WITH {currentFriend.name} thaidop</h2>
+        <h2>SPLIT A BILL WITH {currentFriend.name} thaidop2</h2>
         <label>💰Bill value</label>
         <input
           type="text"
