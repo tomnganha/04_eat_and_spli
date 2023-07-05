@@ -233,6 +233,7 @@ function App() {
           currentFriend={currentFriend}
           onUpdate={handlerUpdateFriendList}
           showFormSplitBill={handlerShowFormSplitBill}
+          key={currentFriend.id}
         />
       )}
     </div>
